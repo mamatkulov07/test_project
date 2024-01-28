@@ -3,4 +3,13 @@ def sum_num(a):
     return num / len(a)                         
                                                 
 print(sum_num([1,2,3,4,5,9,8]))                
-                                               
+
+
+
+def sum_num(num):                
+    if num %2 == 0:              
+        print(True)              
+    else:                        
+        print('Error')           
+                                 
+print(sum_num(7))                                                           
